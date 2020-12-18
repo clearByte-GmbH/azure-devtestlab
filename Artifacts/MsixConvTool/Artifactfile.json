@@ -1,1 +1,14 @@
-
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
+    "title": "Msix-Konverter",
+    "publisher": "clearByte",
+    "description": "Installs AppV-Sequencer whit manager.",
+    "tags": [
+        "clearByte",
+        "Msix-Konverter"
+    ],
+    "targetOsType": "Windows",
+    "runCommand": {
+        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./Install-Msixkonv.ps1'\"')]"
+    }
+}
